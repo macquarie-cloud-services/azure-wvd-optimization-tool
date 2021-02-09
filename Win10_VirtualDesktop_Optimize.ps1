@@ -139,7 +139,16 @@ BEGIN {
         $DiskCleanup = $true
         $NetworkOptimizations = $true
         $LGPO = $true
+        $tasksToProcess = 9
     }
+    Else { $tasksToProcess = $PSCmdlet.MyInvocation.BoundParameters.Keys.Count }
+
+    $taskStatus = [PSCustomObject]@{
+        Processed = 0
+        Succeeded = 0
+        Failed = 0
+    }
+    $progressId = 1
 
     try { Push-Location (Join-Path $PSScriptRoot $WindowsVersion)-ErrorAction Stop }
     catch {
@@ -148,9 +157,12 @@ BEGIN {
     }
 }
 PROCESS {
-
+    
+    Write-Progress -Id $progressId -Activity ("Windows 10 Virtual Desktop Optimizer") -Status ("Processing {0} of {1} Optimization Tasks" -f $taskStatus.Processed,$tasksToProcess) -PercentComplete (($taskStatus.Processed / $tasksToProcess) * 100)
     #region Disable, then remove, Windows Media Player including payload
     If ($WindowsMediaPlayer) {
+        $taskStatus.Processed++
+        Write-Progress -Id $progressId -CurrentOperation ("Optimize Windows Media Player")
         try {
             Write-Output ("[VDI Optimize] Disable / Remove Windows Media Player")
             Write-Verbose "Disabling Windows Media Player Feature"
@@ -159,8 +171,12 @@ PROCESS {
                 Write-Verbose "Removing $($_.PackageName)"
                 Remove-WindowsPackage -PackageName $_.PackageName -Online -ErrorAction SilentlyContinue -NoRestart | Out-Null
             }
+            $taskStatus.Succeeded++
         }
-        catch { Write-Output ("[ERROR] Disabling / Removing Windows Media Player - {0}" -f $_.Exception.Message)}
+        catch {
+            Write-Output ("[ERROR] Disabling / Removing Windows Media Player - {0}" -f $_.Exception.Message)
+            $taskStatus.Failed++
+        }
     }
     #endregion
 
