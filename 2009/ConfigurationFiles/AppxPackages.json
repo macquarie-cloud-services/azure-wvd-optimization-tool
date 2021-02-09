@@ -7,7 +7,7 @@
   },
   {
     "AppxPackage": "Microsoft.MSPaint",
-    "VDIState": "Disabled",
+    "VDIState": "Enabled",
     "URL": "https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99",
     "Description": "Paint 3D"
   },
@@ -187,7 +187,7 @@
   },
   {
     "AppxPackage": "Microsoft.ScreenSketch",
-    "VDIState": "Disabled",
+    "VDIState": "Enabled",
     "URL": "https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l",
     "Description": "Snip and Sketch app"
   },
