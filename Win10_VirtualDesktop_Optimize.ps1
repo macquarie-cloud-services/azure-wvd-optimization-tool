@@ -162,7 +162,7 @@ PROCESS {
     #region Disable, then remove, Windows Media Player including payload
     If ($WindowsMediaPlayer) {
         $taskStatus.Processed++
-        Write-Progress -Id $progressId -CurrentOperation ("Optimize Windows Media Player")
+        Write-Progress -Id $progressId -Activity ("Optimize Windows Media Player")
         try {
             Write-Output ("[VDI Optimize] Disable / Remove Windows Media Player")
             Write-Verbose "Disabling Windows Media Player Feature"
