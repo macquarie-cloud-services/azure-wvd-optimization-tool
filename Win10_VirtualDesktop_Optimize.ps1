@@ -408,7 +408,7 @@ PROCESS {
     Write-Host "Total Run Time: $($ScriptRunTime.Hours) Hours $($ScriptRunTime.Minutes) Minutes $($ScriptRunTime.Seconds) Seconds" -ForegroundColor Cyan
 
     If ($Restart) { Restart-Computer -Force }
-    Else { Write-Warning "A reboot is required for all changed to take effect" }
+    Else { Write-Host "A reboot is required for all changed to take effect" }
 
 
     ########################  END OF SCRIPT  ########################
