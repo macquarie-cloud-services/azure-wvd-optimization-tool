@@ -12,6 +12,12 @@
     "Description": "Paint 3D"
   },
   {
+    "AppxPackage": "Microsoft.Paint",
+    "VDIState": "Enabled",
+    "URL": "https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99",
+    "Description": "Paint 3D"
+  },
+  {
     "AppxPackage": "Microsoft.BingWeather",
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/en-us/p/msn-weather/9wzdncrfj3q2",
@@ -133,6 +139,12 @@
   },
   {
     "AppxPackage": "Microsoft.XboxApp",
+    "VDIState": "Disabled",
+    "URL": "https://www.microsoft.com/store/apps/9wzdncrfjbd8",
+    "Description": "Xbox 'Console Companion' app (games, friends, etc.)"
+  },
+  {
+    "AppxPackage": "Microsoft.GamingApp",
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/store/apps/9wzdncrfjbd8",
     "Description": "Xbox 'Console Companion' app (games, friends, etc.)"
