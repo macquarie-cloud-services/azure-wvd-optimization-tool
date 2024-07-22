@@ -275,7 +275,7 @@ PROCESS {
                 Write-EventLog -EventId 40 -Message "Processing Default User Settings (Registry Keys)" -LogName 'Virtual Desktop Optimization' -Source 'DefaultUserSettings' -EntryType Information
                 Write-Verbose "Processing Default User Settings (Registry Keys)"
 
-                & REG LOAD HKLM\VDOT_TEMP C:\Users\Default\NTUSER.DAT | Out-Null
+                & REG LOAD HKLM\DEFAULT C:\Users\Default\NTUSER.DAT | Out-Null
 
                 Foreach ($Item in $UserSettings)
                 {
@@ -319,7 +319,7 @@ PROCESS {
                     }
                 }
 
-                & REG UNLOAD HKLM\VDOT_TEMP | Out-Null
+                & REG UNLOAD HKLM\DEFAULT | Out-Null
             }
             Else
             {
