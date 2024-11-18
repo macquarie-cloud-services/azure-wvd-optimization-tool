@@ -7,7 +7,7 @@
   },
   {
     "AppxPackage": "Clipchamp.Clipchamp",
-    "VDIState": "Disabled",
+    "VDIState": "Unchanged",
     "URL": "https://apps.microsoft.com/detail/9p1j8s7ccwwt?hl=en-us&gl=US",
     "Description": "Create videos with a few clicks"
   },
@@ -28,6 +28,12 @@
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/en-us/p/msn-weather/9wzdncrfj3q2",
     "Description": "MSN Weather app"
+  },
+  {
+    "AppxPackage": "Microsoft.DesktopAppInstaller",
+    "VDIState": "Disabled",
+    "URL": "https://apps.microsoft.com/detail/9NBLGGH4NNS1",
+    "Description": "Microsoft App Installer for Windows 10 makes sideloading Windows apps easy"
   },
   {
     "AppxPackage": "Microsoft.GamingApp",
@@ -66,10 +72,28 @@
     "Description": "Solitaire suite of games"
   },
   {
+    "AppxPackage": "Microsoft.MicrosoftStickyNotes",
+    "VDIState": "Unchanged",
+    "URL": "https://www.microsoft.com/en-us/p/microsoft-sticky-notes/9nblggh4qghw",
+    "Description": "Note-taking app"
+  },
+  {
     "AppxPackage": "Microsoft.OutlookForWindows",
     "VDIState": "Disabled",
     "URL": "https://apps.microsoft.com/detail/9NRX63209R7B?hl=en-us&gl=US",
     "Description": "a best-in-class email experience that is free for anyone with Windows"
+  },
+  {
+    "AppxPackage": "Microsoft.MSPaint",
+    "VDIState": "Disabled",
+    "URL": "https://apps.microsoft.com/store/detail/paint-3d/9NBLGGH5FV99",
+    "Description": "Paint 3D app (not Classic Paint app)"
+  },
+  {
+    "AppxPackage": "Microsoft.Paint",
+    "VDIState": "Unchanged",
+    "URL": "https://apps.microsoft.com/detail/9PCFS5B6T72H",
+    "Description": "Classic Paint app"
   },
   {
     "AppxPackage": "Microsoft.People",
@@ -85,7 +109,7 @@
   },
   {
     "AppxPackage": "Microsoft.ScreenSketch",
-    "VDIState": "Disabled",
+    "VDIState": "Unchanged",
     "URL": "https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l",
     "Description": "Snip and Sketch app"
   },
@@ -102,6 +126,12 @@
     "Description": "Store purchase app helper"
   },
   {
+    "AppxPackage": "Microsoft.Todos",
+    "VDIState": "Unchanged",
+    "URL": "https://www.microsoft.com/en-us/p/microsoft-to-do-lists-tasks-reminders/9nblggh5r558",
+    "Description": "Microsoft To Do makes it easy to plan your day and manage your life"
+  },
+  {
     "AppxPackage": "Microsoft.WinDbg.Fast",
     "VDIState": "Disabled",
     "URL": "https://apps.microsoft.com/detail/9PGJGD53TN86?hl=en-us&gl=US",
@@ -114,10 +144,34 @@
     "Description": "A control center providing the ability to monitor projects in your dashboard using customizable widgets and more"
   },
   {
+    "AppxPackage": "Microsoft.Windows.Photos",
+    "VDIState": "Unchanged",
+    "URL": "https://www.microsoft.com/en-us/p/microsoft-photos/9wzdncrfjbh4",
+    "Description": "Photo and video editor"
+  },
+  {
     "AppxPackage": "Microsoft.WindowsAlarms",
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/en-us/p/windows-alarms-clock/9wzdncrfj3pr",
     "Description": "A combination app, of alarm clock, world clock, timer, and stopwatch."
+  },
+  {
+    "AppxPackage": "Microsoft.WindowsCalculator",
+    "VDIState": "Unchanged",
+    "URL": "https://www.microsoft.com/en-us/p/windows-calculator/9wzdncrfhvn5",
+    "Description": "Microsoft Calculator app"
+  },
+  {
+    "AppxPackage": "Microsoft.WindowsCamera",
+    "VDIState": "Unchanged",
+    "URL": "https://www.microsoft.com/en-us/p/windows-camera/9wzdncrfjbbg",
+    "Description": "Camera app to manage photos and video"
+  },
+  {
+    "AppxPackage": "microsoft.windowscommunicationsapps",
+    "VDIState": "Disabled",
+    "URL": "https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm",
+    "Description": "Mail & Calendar apps"
   },
   {
     "AppxPackage": "Microsoft.WindowsFeedbackHub",
@@ -130,6 +184,36 @@
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/en-us/p/windows-maps/9wzdncrdtbvb",
     "Description": "Microsoft Maps app"
+  },
+  {
+    "AppxPackage": "Microsoft.WindowsNotepad",
+    "VDIState": "Unchanged",
+    "URL": "https://www.microsoft.com/en-us/p/windows-notepad/9msmlrh6lzf3",
+    "Description": "Fast, simple text editor for plain text documents and source code files."
+  },
+  {
+    "AppxPackage": "Microsoft.WindowsStore",
+    "VDIState": "Unchanged",
+    "URL": "https://blogs.windows.com/windowsexperience/2021/06/24/building-a-new-open-microsoft-store-on-windows-11/",
+    "Description": "Windows Store app"
+  },
+  {
+    "AppxPackage": "Microsoft.WindowsSoundRecorder",
+    "VDIState": "Unchanged",
+    "URL": "https://www.microsoft.com/en-us/p/windows-voice-recorder/9wzdncrfhwkn",
+    "Description": "(Voice recorder)"
+  },
+  {
+    "AppxPackage": "Microsoft.WindowsTerminal",
+    "VDIState": "Unchanged",
+    "URL": "https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701",
+    "Description": "A terminal app featuring tabs, panes, Unicode, UTF-8 character support, and GPU text rendering engine."
+  },
+  {
+    "AppxPackage": "Microsoft.Winget.Platform.Source",
+    "VDIState": "Unchanged",
+    "URL": "https://learn.microsoft.com/en-us/windows/package-manager/winget/",
+    "Description": "The Winget tool enables users to manage applications on Win10 and Win11 devices. This tool is the client interface to the Windows Package Manager service"
   },
   {
     "AppxPackage": "Microsoft.Xbox.TCUI",
@@ -208,6 +292,24 @@
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/en-us/p/3d-viewer/9nblggh42ths",
     "Description": "App to view common 3D file types"
+  },
+  {
+    "AppxPackage": "MicrosoftTeams",
+    "VDIState": "Unchanged",
+    "URL": "https://apps.microsoft.com/detail/xp8bt8dw290mpq",
+    "Description": "Microsoft communication platform"
+  },
+  {
+    "AppxPackage": "MSTeams",
+    "VDIState": "Unchanged",
+    "URL": "https://apps.microsoft.com/detail/xp8bt8dw290mpq",
+    "Description": "Microsoft communication platform"
+  },
+  {
+    "AppxPackage": "Microsoft.OneDriveSync",
+    "VDIState": "Unchanged",
+    "URL": "https://docs.microsoft.com/en-us/onedrive/one-drive-sync",
+    "Description": "Microsoft OneDrive sync app (included in Office 2016 or later)"
   },
   {
     "AppxPackage": "Microsoft.Wallet",
