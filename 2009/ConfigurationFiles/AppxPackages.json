@@ -36,6 +36,12 @@
     "Description": "MSN Weather app"
   },
   {
+    "AppxPackage": "Microsoft.Copilot",
+    "VDIState": "Disabled",
+    "URL": "https://apps.microsoft.com/detail/9nht9rb2f4hd",
+    "Description": "Microsoft Copilot"
+  },
+  {
     "AppxPackage": "Microsoft.DesktopAppInstaller",
     "VDIState": "Disabled",
     "URL": "https://apps.microsoft.com/detail/9NBLGGH4NNS1",
