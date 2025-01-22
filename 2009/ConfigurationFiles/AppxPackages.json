@@ -37,7 +37,7 @@
   },
   {
     "AppxPackage": "Microsoft.Copilot",
-    "VDIState": "Disabled",
+    "VDIState": "Unchanged",
     "URL": "https://apps.microsoft.com/detail/9nht9rb2f4hd",
     "Description": "Microsoft Copilot"
   },
