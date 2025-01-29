@@ -992,17 +992,61 @@
         "RegItemValueType": "DWord",
         "RegItemValue": "900",
         "VDIState": "Enabled"
-    },{
+    },
+    {
         "RegItemPath": "HKCU:\\SOFTWARE\\Policies\\Microsoft\\EdgeUpdate",
         "RegItemValueName": "UpdatesSuppressedStartHour",
         "RegItemValueType": "DWord",
         "RegItemValue": "4",
         "VDIState": "Enabled"
-    },{
+    },
+    {
         "RegItemPath": "HKCU:\\SOFTWARE\\Policies\\Microsoft\\EdgeUpdate",
         "RegItemValueName": "UpdatesSuppressedStartMin",
         "RegItemValueType": "DWord",
         "RegItemValue": "0",
+        "VDIState": "Enabled"
+    },
+    {
+        "RegItemPath": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\OOBE",
+        "RegItemValueName": "DisablePrivacyExperience",
+        "RegItemValueType": "DWord",
+        "RegItemValue": "1",
+        "VDIState": "Enabled"
+    },
+    {
+        "RegItemPath": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppPrivacy",
+        "RegItemValueName": "LetAppsAccessLocation",
+        "RegItemValueType": "DWord",
+        "RegItemValue": "1",
+        "VDIState": "Enabled"
+    },
+    {
+        "RegItemPath": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\FindMyDevice",
+        "RegItemValueName": "AllowFindMyDevice",
+        "RegItemValueType": "DWord",
+        "RegItemValue": "0",
+        "VDIState": "Enabled"
+    },
+    {
+        "RegItemPath": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection",
+        "RegItemValueName": "AllowTelemetry",
+        "RegItemValueType": "DWord",
+        "RegItemValue": "1",
+        "VDIState": "Enabled"
+    },
+    {
+        "RegItemPath": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\TextInput",
+        "RegItemValueName": "AllowLinguisticDataCollection",
+        "RegItemValueType": "DWord",
+        "RegItemValue": "0",
+        "VDIState": "Enabled"
+    },
+    {
+        "RegItemPath": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+        "RegItemValueName": "DisableTailoredExperiencesWithDiagnosticData",
+        "RegItemValueType": "DWord",
+        "RegItemValue": "1",
         "VDIState": "Enabled"
     }
 ]
